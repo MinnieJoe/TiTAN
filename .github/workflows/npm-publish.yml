@@ -31,7 +31,7 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-            - name: Download a Build Artifact
+            - name:/ .github/workflows/npm-publish.yml
   uses: actions/download-artifact@v4.1.0
   with:
     # Name of the artifact to download. If unspecified, all artifacts for the run are downloaded.
